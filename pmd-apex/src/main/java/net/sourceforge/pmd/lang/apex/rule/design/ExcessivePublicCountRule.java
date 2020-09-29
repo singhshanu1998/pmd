@@ -29,7 +29,7 @@ public class ExcessivePublicCountRule extends ExcessiveNodeCountRule {
         super(ASTUserClass.class);
         setProperty(MINIMUM_DESCRIPTOR, 20d);
         setProperty(CODECLIMATE_CATEGORIES, "Complexity");
-        setProperty(CODECLIMATE_REMEDIATION_MULTIPLIER, 150);
+        setProperty(CODECLIMATE_REMEDIATION_MULTIPLIER, 200);
         setProperty(CODECLIMATE_BLOCK_HIGHLIGHTING, false);
     }
 
